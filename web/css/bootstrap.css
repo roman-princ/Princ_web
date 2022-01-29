@@ -5313,6 +5313,9 @@ a.badge-dark:focus, a.badge-dark.focus {
   -ms-flex-align: start;
   align-items: flex-start;
 }
+.media:hover{
+  transform: scale(1.15) linear 1,5s;
+}
 
 .media-body {
   -ms-flex: 1;
