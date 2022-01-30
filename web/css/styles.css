@@ -149,6 +149,10 @@ a.white {
 	margin-right: auto;
 	margin-left: auto;
 }
+.img-princ{
+	width: 576px;
+	height:141px;
+}
 #hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -1687,6 +1691,10 @@ a:hover.back-to-top {
 	}
 	.navbar-custom{
 		background-color:#004766;
+	}
+	.img-princ{
+		width: 10em;
+		height: 3em;
 	}
 }
 
