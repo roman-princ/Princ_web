@@ -1142,7 +1142,7 @@ input[type='checkbox'] {
 /***********************/
 .basic-1 {
 	padding-top: 7.5rem;
-	padding-bottom: 8rem;
+	padding-bottom: 1rem;
 }
 
 .basic-1 .text-container {
@@ -2078,7 +2078,20 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 992px */
+@media (max-width: 992px) {
+	.img-fluid3{
+		width: 25em;
+		
+	}
+	.slider-container{
+		width: 30em;
+		object-fit: cover;
+	}
+	.img-fluid2{
+		padding-left:2em;
+	}
 
+}
 
 /* Min-width width 1200px */
 @media (min-width: 1200px) {

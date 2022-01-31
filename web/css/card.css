@@ -93,3 +93,8 @@
     font-weight: normal;
     line-height: 1.2em;
 }
+@media (max-width: 992px){
+    .container .card{
+        margin-left: 12.5em;
+    }
+}

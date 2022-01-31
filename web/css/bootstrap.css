@@ -5218,6 +5218,11 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #fefefe;
   border-color: #fdfdfe;
 }
+@media (max-width: 992px) {
+  .alert-light{
+    width:45em;
+  }
+}
 
 .alert-light hr {
   border-top-color: #ececf6;

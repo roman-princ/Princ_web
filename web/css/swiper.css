@@ -65,7 +65,7 @@
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 100%;
+  width: 245px;
   height: 100%;
   position: relative;
   -webkit-transition-property: -webkit-transform;
@@ -615,4 +615,9 @@ button.swiper-pagination-bullet {
 .swiper-container-coverflow .swiper-wrapper {
   /* Windows 8 IE 10 fix */
   -ms-perspective: 1200px;
+}
+@media (max-width: 992px) {
+  .swiper-container{
+    width: 45em;
+  }
 }
