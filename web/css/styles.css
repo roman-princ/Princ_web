@@ -155,7 +155,7 @@ a.white {
 }
 .img-princ{
 	width: 576px;
-	height:141px;
+	max-height: 141px;
 }
 #hover-underline-animation {
     display: inline-block;
@@ -1715,7 +1715,7 @@ a:hover.back-to-top {
 	}
 	.img-princ{
 		width: 10em;
-		height: 3em;
+		max-height: 141px;
 	}
 }
 
