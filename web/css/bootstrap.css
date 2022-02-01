@@ -590,6 +590,7 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -5107,6 +5108,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  text-align:center;
 }
 
 .alert-heading {

@@ -43,6 +43,7 @@ Colors:
 /******************************/
 *{
 	max-width: 100%;
+	
 }
 body,
 html {
@@ -324,6 +325,11 @@ a.white {
 	opacity: 1;
 	font-size: 0.75rem;
 	font-weight: 700;
+}
+.row{
+	padding-right: 0;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 .form-control-input,
@@ -733,6 +739,7 @@ input[type='checkbox'] {
 .slider-1 .container {
 	display:flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .navbar-custom .navbar-brand.logo-image img {
@@ -924,6 +931,8 @@ input[type='checkbox'] {
 
 .slider-1 .slider-container {
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -2102,7 +2111,7 @@ a:hover.back-to-top {
 		object-fit: cover;
 	}
 	.img-fluid2{
-		padding-left:2em;
+		padding-right:2em;
 	}
 	#details{
 		display: flex;

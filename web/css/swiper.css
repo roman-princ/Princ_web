@@ -17,9 +17,11 @@
   padding: 0;
   /* Fix of Webkit flickering */
   z-index: 1;
+  width: 100%;
 }
 .swiper-container-no-flexbox .swiper-slide {
   float: left;
+  margin:0;
 }
 .swiper-container-vertical > .swiper-wrapper {
   -webkit-box-orient: vertical;
@@ -599,10 +601,12 @@ button.swiper-pagination-bullet {
 }
 .swiper-container-flip .swiper-slide .swiper-slide {
   pointer-events: none;
+  
 }
 .swiper-container-flip .swiper-slide-active,
 .swiper-container-flip .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
+  
 }
 .swiper-container-flip .swiper-slide-shadow-top,
 .swiper-container-flip .swiper-slide-shadow-bottom,
@@ -616,8 +620,4 @@ button.swiper-pagination-bullet {
   /* Windows 8 IE 10 fix */
   -ms-perspective: 1200px;
 }
-@media (max-width: 992px) {
-  .swiper-container{
-    width: 45em;
-  }
-}
+
