@@ -2,6 +2,7 @@
     position: relative;
     cursor: pointer;
     width: 300px;
+    background-color: transparent;
     
 }
 
@@ -53,7 +54,7 @@
 
 .container .card .face.face2{
     position: relative;
-    background: #fff;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
