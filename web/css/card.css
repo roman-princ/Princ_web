@@ -42,6 +42,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    filter: invert(1);
 }
 
 .container .card .face.face1 .content h3{
