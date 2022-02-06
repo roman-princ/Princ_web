@@ -37,7 +37,7 @@ Colors:
 ******************************************/
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
 /******************************/
 /*     01. General Styles     */
 /******************************/
@@ -73,8 +73,9 @@ h1 {
 
 h2 {
 	color: #333;
-	font-family: 'Staatliches', cursive;
+	font-family: 'Goldman', cursive;
 	letter-spacing: -0.2px;
+	font-weight: bold;
 }
 
 h3 {
